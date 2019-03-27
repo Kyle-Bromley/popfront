@@ -1,0 +1,21 @@
+ void pop_front()
+{
+   if ( head )
+   {
+      node *tmp = head;
+      head = head->ptr;
+      delete tmp
+   }
+}
+
+or this
+
+Node *tmp;
+if(haed == NULL){
+return;
+}
+else{
+tmp = head->ptr;
+delete head;
+head = ptr;
+}
